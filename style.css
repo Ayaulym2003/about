@@ -354,6 +354,7 @@
   
 
 .footer{
+    position: relative;
     width:100%;
     height: 500px;
     background-color:rgb(39, 34, 33);
@@ -363,33 +364,33 @@
     padding-top: 70px;
     padding-left: 75px;
 
-   width: 500px;
+   width: 700px;
 }
 .footer h2{
 color: rgb(224, 224, 224);
-font-size: 1vw;
+font-size: 14px;
 padding-bottom: 20px;
 
 }
 .footer h4{
     color: rgb(235, 235, 235);
-    font-size: 1vw;
+    font-size: 14px;
  }
 .footer h3{
     color: rgb(116, 106, 87);
-    font-size: 1vw;    
+    font-size: 14px;    
     padding-bottom: 10px;
     padding-top: 50px;
 }
 .footer h1{
-    text-align: left;
     color:rgb(221, 180, 180);
-    font-size: 1vw;
+    font-size: 14px;
 }
 .footer div{
     color:rgb(116, 106, 87);
-    font-size: 1vw;
+    font-size: 10px;
 }
+
 
 @media (max-width: 700px){
     .di{
@@ -454,10 +455,6 @@ padding-bottom: 20px;
         width: 100vw; 
         height: 75vh;
     }
-    .page2 p{
-     
-        
-    }
     .page3{
         width: 100%;
         height: 130vh;
@@ -488,29 +485,29 @@ padding-bottom: 20px;
           width: 250px;
           height: 600px;
         } 
-    .footer{
-        height: 50vh;
-       
-    }
-    .footer h1{
-        font-size: 3vw;
-    }
-    .footer h3{
-        font-size: 3vw;
-    }
-    .footer h2{
-        font-size: 3vw;
-    }
-    .footer h4{
-        font-size: 3vw;
-    }
-    .footer >div{
-        padding-left: 20px;
-        
-    }
-    #rp{
-         font-size: 1.7vw;
-        padding-right: 20px;
-    }
+        .footer{
+            height: 50vh;
+           
+        }
+        .footer h1{
+            font-size: 2vw;
+        }
+        .footer h3{
+            font-size: 2vw;
+        }
+        .footer h2{
+            font-size: 2vw;
+        }
+        .footer h4{
+            font-size: 2vw;
+        }
+        .footer >div{
+            padding-left: 20px;
+            
+        }
+        #rp{
+             font-size: 1.7vw;
+            padding-right: 20px;
+        }
     }
     
