@@ -615,9 +615,9 @@ padding-bottom: 20px;
       font-size: 2vw;
   }
   .ph_checkbox2:checked~.call2{
-    animation: fade_in_show 2s;
-    opacity: 1;
-      display:block;
+    display:block;
+      animation: fade_in_show 2s;
+              opacity: 1;
   }
   .call2{
       display: none;
@@ -686,6 +686,10 @@ right: 12vw;
 }
 
 @media (max-width: 700px){
+    .phIcon1{
+        margin-top: 10px;
+        margin-left: -2vw;
+     }
     .sub{
         margin-top: 2vw;
         margin-right:0vw ;
