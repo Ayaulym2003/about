@@ -263,6 +263,7 @@
 .img-wrap {
     width: 100%;
     position: relative;
+    overflow: hidden;
   }
   
   .img-wrap #title {
@@ -274,7 +275,7 @@
   }
   .img-responsive{
       position: relative;
-      left: 22.6vw;
+      left: 24.6vw;
       width: 76.4vw;
       height: 100vh;
   }
