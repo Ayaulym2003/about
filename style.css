@@ -274,8 +274,8 @@
   }
   .img-responsive{
       position: relative;
-      left: 22.6%;
-      width: 78.2%;
+      left: 22.6vw;
+      width: 76.4vw;
       height: 100vh;
   }
   .container-fluid h1{
@@ -411,7 +411,7 @@ padding-bottom: 20px;
       border-radius: 50%;
       text-align: center;
       margin-bottom: 1vh;
-      margin-top: 1vw;
+      margin-top: 2vh;
       transition: all 400ms cubic-bezier(0.86, 0, 0.07, 1);
       cursor: pointer;
      display: block; 
@@ -687,7 +687,7 @@ right: 12vw;
 
 @media (max-width: 700px){
     .phIcon1{
-        margin-top: 10px;
+        margin-top: 0.5vh;
         margin-left: 0vw;
      }
     .sub{
@@ -825,7 +825,7 @@ right: 12vw;
         background-color: rgba(196,159,138,255);
     }
     .img-responsive{
-        width: 79.5%;
+        width: 75vw;
        height: 50vh;
     }
     .img-wrap #title {
